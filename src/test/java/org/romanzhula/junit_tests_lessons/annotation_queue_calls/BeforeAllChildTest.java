@@ -1,4 +1,4 @@
-package org.romanzhula.junit_tests_lessons;
+package org.romanzhula.junit_tests_lessons.annotation_queue_calls;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

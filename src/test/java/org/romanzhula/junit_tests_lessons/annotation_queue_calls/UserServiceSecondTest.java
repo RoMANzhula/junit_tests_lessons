@@ -1,7 +1,10 @@
-package org.romanzhula.junit_tests_lessons;
+package org.romanzhula.junit_tests_lessons.annotation_queue_calls;
 
 import org.junit.jupiter.api.*;
 import org.mockito.Mockito;
+import org.romanzhula.junit_tests_lessons.User;
+import org.romanzhula.junit_tests_lessons.UserRepository;
+import org.romanzhula.junit_tests_lessons.UserService;
 
 import static org.mockito.Mockito.when;
 

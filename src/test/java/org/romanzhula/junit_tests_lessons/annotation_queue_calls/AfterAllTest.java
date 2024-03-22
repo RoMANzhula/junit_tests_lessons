@@ -1,23 +1,22 @@
-package org.romanzhula.junit_tests_lessons;
+package org.romanzhula.junit_tests_lessons.annotation_queue_calls;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class BeforeEachTest {
-    public BeforeEachTest() {
+public class AfterAllTest {
+
+    public AfterAllTest() {
         System.out.println("Constructor");
     }
 
-    @BeforeEach
-    void beforeEach() {
-        System.out.println("Before Each!");
+    @org.junit.jupiter.api.AfterAll
+    static void afterAll() {
+        System.out.println("After all!");
     }
 
     @Test
     void test1() {
         System.out.println("Test 1");
     }
-
     @Test
     void test2() {
         System.out.println("Test 2");
