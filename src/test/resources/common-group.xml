@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="common_test">
+    <test name="common tests">
+        <groups>
+            <run>
+                <include name="common"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.romanzhula.junit_tests_lessons.test_ng.CommonTest"/>
+        </classes>
+    </test>
+</suite>

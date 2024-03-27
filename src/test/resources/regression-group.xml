@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="regression_test">
+    <test name="regression tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.romanzhula.junit_tests_lessons.test_ng.RegressionTest"/>
+        </classes>
+    </test>
+</suite>
